@@ -13,7 +13,7 @@
                 list_dna_strand[i] = 'G'   
             elif list_dna_strand[i] == 'T':
                 list_dna_strand[i] = 'A'
-            if list_dna_strand[i] == 'A':
+            else:
                 list_dna_strand[i] = 'U'
         dna_strand = ''.join(list_dna_strand)      
         return dna_strand
